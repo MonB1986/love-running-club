@@ -100,14 +100,14 @@ footer {
 
 @media screen and (min-width: 768px) {
     /* Header */
-    nav{
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding: 1rem;
+        padding-right: 1rem;
     }
-    #menu{
+    #menu {
         display: flex;
     }
 
@@ -117,5 +117,25 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo  {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main{
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
+}
+
+/*Large devices - laptops and up 992 px and up */
+@media screen and (min-width: 992px) {
+
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
