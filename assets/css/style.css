@@ -294,10 +294,9 @@ hr {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
-#photos {
+  #photos {
     column-count: 4;
   }
-
 }
 
 /* For sreens wider than 1200px */
