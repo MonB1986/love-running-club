@@ -214,10 +214,10 @@ hr {
   padding: 20px 10% 0 10%;
 }
 
-#signup-form{
+#signup-form {
   padding: 30px;
   color: #ffffff;
-  background-color: rgba(60,60,60,.6);
+  background-color: rgba(60, 60, 60, 0.6);
 }
 
 #signup-form > h2 {
@@ -227,7 +227,7 @@ hr {
 
 .text-input {
   background-color: transparent;
-  color:#fafafa;
+  color: #fafafa;
   border: 1px solid #fafafa;
   border-radius: 2px;
   width: 100%;
@@ -250,8 +250,6 @@ hr {
   padding: 15px 32px;
   margin-top: 20px;
 }
-
-
 
 /* Footer */
 #social-networks {
@@ -339,31 +337,28 @@ hr {
     column-count: 3;
   }
 
-
   /* Form */
-  
-#signup {
-  background-position: center;
-  position: relative;
-  
-}
 
-#signup-form {
-  position: absolute;
-  left: 10%;
-  top: 150px;
-  max-width: 400px;
-}
+  #signup {
+    background-position: center;
+    position: relative;
+  }
 
-.join-button:hover {
-  background-color: #fafafa;
-  color: #454b1b;
-}
+  #signup-form {
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    max-width: 400px;
+  }
 
-.text-input:hover {
-  border-color: #f16c6b;
-}
+  .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+  }
 
+  .text-input:hover {
+    border-color: #f16c6b;
+  }
 }
 
 /*Large devices - laptops and up 992 px and up */
